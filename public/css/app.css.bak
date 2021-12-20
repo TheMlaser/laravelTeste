@@ -7,7 +7,7 @@ h1{
 }
 
 table{
-	border-style: double;
+	border-style: dotted;
 	padding:20px;
 
 }

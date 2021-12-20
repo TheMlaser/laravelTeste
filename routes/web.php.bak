@@ -15,7 +15,7 @@ use App\Http\Controllers\FormController;
 */
 
 Route::get('/', function () {
-    return view('add-form');
+    return view('welcome');
 });
 
 Route::get('add-form', [FormController::class, 'create']);
