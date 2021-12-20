@@ -47,7 +47,7 @@ class FormController extends Controller
 		$form->email= $validated['email'];
 		$form->telephone= $validated['telefone'];
 		$form->subject= $validated['assunto'];
-		$form->text= $validated['mensagem'];
+		$form->text= $validated-['mensagem'];
 		$form->save();
 		
 		return redirect()->back()->with('status','Form added Suceffuly');

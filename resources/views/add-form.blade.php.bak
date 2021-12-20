@@ -31,7 +31,7 @@
             @endforeach
 				</tr>
 			@endif
-			<tr><td> <td><input type='submit' value='Enviar'></td></td></tr>
+			<tr><td> <input type='submit' value='Enviar'></td></tr>
 		</table>
 	</form>
 </body>
